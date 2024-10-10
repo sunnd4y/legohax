@@ -15,3 +15,6 @@ This repository is a treasure trove of code designed to help you learn and grow 
 3. **Collaborate and Learn:** Join discussions, ask questions, and learn together with others in the community.
 
 We encourage you to explore, experiment, and collaborate. Happy coding!
+ if you are reading this project got discontinue since 10/10/2567 if you wanna learn more lua you can read here for best bc im not a good or best developer 
+https://roblox.github.io/lua-style-guide/ 
+this is not made by me but its alot better than mine explain
