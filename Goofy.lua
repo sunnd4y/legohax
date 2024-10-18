@@ -24,7 +24,7 @@ Utility.Add_Connection(RunService.PreRender, function()
        Client:Kick("You Died?")
     end
 
-    
+    while 0 do end
     
 end)
 
