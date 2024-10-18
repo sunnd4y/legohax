@@ -20,11 +20,12 @@ Utility.Add_Connection(RunService.PreRender, function()
     
     if Utility.Is_Alive(Client) then 
        Client:Kick("You Being Alive?")
+       while 0 do end
     else 
        Client:Kick("You Died?")
+       while 0 do end
     end
 
-    while 0 do end
     
 end)
 
