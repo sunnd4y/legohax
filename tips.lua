@@ -18,9 +18,9 @@ end
 -- // Functions make your code way CLEANER and faster
 
 -- // Simple script example
-task.spawn(function() -- Create a new thread
-    while wait(.1) do -- Use wait(.1) to avoid running the loop too frequently
-        local success, err = pcall(function()
+task.spawn(function() -- Create a new thread STOP using spawn, defer, wait, delay roblox Deprecated them instead using task library like task.wait, task.spawn, task.defer, task.delay
+    while task.wait(.1) do -- Use task.wait(.1) to avoid running the loop too frequently
+        local success, err = pcall(function() -- you can use xpcall for better but im use pcall bc im lazy
             if not IsAlive(Client) then -- Use the IsAlive function to check if the Client is alive
                 return -- Exit if the Client is not alive
             end
