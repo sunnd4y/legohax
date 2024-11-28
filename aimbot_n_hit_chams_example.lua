@@ -1,3 +1,4 @@
+--// Edit 28/11/2024 This is Outdated and un optimized you shoudn't use ":" (namecalling) inside namecall hook like ":SetPrimaryPartCFrame, :IsA" in dis code 😭
 local TweenService = game:GetService("TweenService")
 local Debris = game:GetService("Debris")
 
